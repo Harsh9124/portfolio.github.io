@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1106194fe4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-txt">Harsh Gundaliya</div>
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="info-left">
+                    <div class="info-head">Hi! I am Harsh Gundaliya</div>
+                    <div class="info-head info-subhead">
+                        I am a <span class="role"></span>
+                    </div>
+                    <div class="info-desc">
+                        I am a second-year B.TECH Cse student at Uka Tarsadia University.
+                    </div>
+                    <div class="info-btn" id="btn">Contact Me</div>
+
+                </div>
+                <div class="info-right">
+                    <div class="myimg">
+                        <img src="image/me.png" alt="my img">
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="project-section" id="projects">
+            <h2 class="project-head">Projects</h2>
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-content project-content-left">
+                        <h2 class="project-title">Build Your PC</h2>
+                        <div class="project-subtitle">This is static website for local shop owner which will help 
+                            the user to see products of the different categories in website and users can connect to 
+                            shop owner.
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project2">
+                    <div class="project-content project-content-left">
+                        <h2 class="project-title">Still learning</h2>
+                        <div class="project-subtitle">Will create a new project soon.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skills" class="container skills-container">
+            <div class="skill-title">SKILLS</div>
+            <div class="skills-container-left">
+                <h2 class="skill-head">Me and My Skills</h2>
+                <div class="skill-subhead">
+                    <p>My name is Harsh and I am a 2nd year B.Tech student studying Computer Science and Engineering. 
+                        I possess a strong skill set in web development, including proficiency in HTML, CSS, and 
+                        JavaScript. I am also skilled in various programming languages such as C, Java, and Python.
+                        Furthermore, I have a basic understanding of SQL, a widely-used language for managing and 
+                        analyzing databases. 
+                    </p>
+                </div>
+            </div>
+            <div class="skill-container-right">
+                <img src="image/logos/html.png" alt="" class="skills-logo">
+                <img src="image/logos/css.png" alt="" class="skills-logo">
+                <img src="image/logos/js.png" alt="" class="skills-logo">
+                <img src="image/logos/c.png" alt="" class="skills-logo">
+                <img src="image/logos/java.png" alt="" class="skills-logo">
+                <img src="image/logos/python.png" alt="" class="skills-logo">
+                <img src="image/logos/sql.png" alt="" class="skills-logo">
+                <img src="image/logos/github.png" alt="" class="skills-logo">
+            </div>
+           
+        </div>
+        <div class="contactus-form" id="contactme">
+            <div class="container">
+                <h1 class="contactus-head">Contact Me</h1>
+                <h3 class="contactus-subhead">Any thing you want to ask</h3>
+                <div class="contactus-form-container">
+                    <form class="form" action="mail.php">
+                        <div class="formfield-container">
+                            <input class="formfield"
+                            type="text"
+                            name="name"
+                            placeholder="Enter your name">
+
+                            <input class="formfield"
+                            type="email"
+                            name="email"
+                            placeholder="Enter your Email-ID">
+
+                            <input class="formfield"
+                            type="text"
+                            name="subject"
+                            placeholder="Subject">
+
+                            <textarea name="message" id="" cols="30" rows="10"
+                            class="formfield formfield-textarea"
+                            placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="info-btn" id="submit-btn">
+                            Send message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="link-wrapper">
+                        <div><a href="#projects">Projects</a></div>
+                        <div><a href="#skills">Skills</a></div>
+                        <div><a href="#contactme">Contact Me</a></div>
+                    </div>
+                    <div class="icon-wrapper">
+                       <div>
+                            <a href="https://github.com/Harsh9124"> <i class="fa-brands fa-github" style="color:#97b3c1;"></i></a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/harsh-gundaliya-a58343235"><i class="fa-brands fa-linkedin" style="color: #97b3c1;"></i></a>
+                        </div>
+                        <div><a href="https://twitter.com/Harsh9124?t=t6nD1Ljobq806mGZEcLLGg&s=08"><i class="fa-brands fa-twitter" style="color: #97b3c1;"></i></a>
+                        </div>
+                        <div><a href="https://instagram.com/harsh._.gundaliya?igshid=OTk0YzhjMDVlZA=="><i class="fa-brands fa-instagram" style="color: #97b3c1;"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typeData = new Typed(".role",{
+            strings: [
+                "Student",
+                "Web Developer",
+                "Coder"
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+</body>
+</html>
