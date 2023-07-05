@@ -28,7 +28,7 @@
                     <div class="info-desc">
                         I am a second-year B.TECH Cse student at Uka Tarsadia University.
                     </div>
-                    <div class="info-btn" id="btn">Contact Me</div>
+                    <a href="#contactme"><div class="info-btn" id="btn">Contact Me</div></a>
 
                 </div>
                 <div class="info-right">
@@ -89,7 +89,8 @@
                 <h1 class="contactus-head">Contact Me</h1>
                 <h3 class="contactus-subhead">Any thing you want to ask</h3>
                 <div class="contactus-form-container">
-                    <form class="form" action="mail.php">
+                    <form class="form"  action="https://formspree.io/f/xaygyyer"
+                    method="POST"">
                         <div class="formfield-container">
                             <input class="formfield"
                             type="text"
@@ -98,16 +99,20 @@
 
                             <input class="formfield"
                             type="email"
+                            id="senderemail"
                             name="email"
                             placeholder="Enter your Email-ID">
 
                             <input class="formfield"
                             type="text"
+                            id="sub"
                             name="subject"
                             placeholder="Subject">
 
                             <textarea name="message" id="" cols="30" rows="10"
                             class="formfield formfield-textarea"
+                            id="bod"
+                            name="textarea"
                             placeholder="Enter your message"></textarea>
                         </div>
                         <button type="submit" class="info-btn" id="submit-btn">
@@ -127,14 +132,14 @@
                     </div>
                     <div class="icon-wrapper">
                        <div>
-                            <a href="https://github.com/Harsh9124"> <i class="fa-brands fa-github" style="color:#97b3c1;"></i></a>
+                            <a href="https://github.com/Harsh9124" target="_blank"> <i class="fa-brands fa-github" style="color:#97b3c1;" ></i></a>
                         </div>
                         <div>
-                            <a href="https://www.linkedin.com/in/harsh-gundaliya-a58343235"><i class="fa-brands fa-linkedin" style="color: #97b3c1;"></i></a>
+                            <a href="https://www.linkedin.com/in/harsh-gundaliya-a58343235" target="_blank"><i class="fa-brands fa-linkedin" style="color: #97b3c1;"></i></a>
                         </div>
-                        <div><a href="https://twitter.com/Harsh9124?t=t6nD1Ljobq806mGZEcLLGg&s=08"><i class="fa-brands fa-twitter" style="color: #97b3c1;"></i></a>
+                        <div><a href="https://twitter.com/Harsh9124?t=t6nD1Ljobq806mGZEcLLGg&s=08" target="_blank"><i class="fa-brands fa-twitter" style="color: #97b3c1;"></i></a>
                         </div>
-                        <div><a href="https://instagram.com/harsh._.gundaliya?igshid=OTk0YzhjMDVlZA=="><i class="fa-brands fa-instagram" style="color: #97b3c1;"></i></a>
+                        <div><a href="https://instagram.com/harsh._.gundaliya?igshid=OTk0YzhjMDVlZA==" target="_blank"><i class="fa-brands fa-instagram" style="color: #97b3c1;"></i></a>
                         </div>
                         
                     </div>
@@ -157,5 +162,6 @@
             backDelay: 1000,
         });
     </script>
+  
 </body>
 </html>
